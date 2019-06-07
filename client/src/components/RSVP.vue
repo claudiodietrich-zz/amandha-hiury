@@ -3,6 +3,11 @@
     <div class="container">
       <div class="columns">
         <div class="column is-three-fifths is-offset-one-fifth">
+          <b-loading
+            v-bind:is-full-page="true"
+            v-bind:active.sync="isLoading"
+            v-bind:can-cancel="false"/>
+
           <figure class="image is-96x96 has-image-centered">
             <img src="../assets/intro/rings.svg">
           </figure>
@@ -68,6 +73,7 @@
 <script>
 import { mask } from 'vue-the-mask'
 import { required, email } from 'vuelidate/lib/validators'
+import axios from 'axios'
 
 export default {
   directives: {
@@ -78,7 +84,8 @@ export default {
       mainGuest: '',
       phone: '',
       email: '',
-      otherGuests: []
+      otherGuests: [],
+      isLoading: false
     }
   },
   validations: {
@@ -94,8 +101,37 @@ export default {
     }
   },
   methods: {
-    submit () {
-      this.$v.$touch()
+    async submit () {
+      try {
+        this.$v.$touch()
+
+        if (!this.$v.$invalid) {
+          this.isLoading = true
+
+          await axios.post('/rsvp', {
+            mainGuest: this.mainGuest,
+            phone: this.phone,
+            email: this.email,
+            otherGuests: this.otherGuests
+          })
+
+          this.mainGuest = ''
+          this.phone = ''
+          this.email = ''
+          this.otherGuests = []
+
+          this.$v.$reset()
+
+          this.isLoading = false
+          this.$dialog.alert('Presença confirmada com sucesso!')
+        }
+      } catch (e) {
+        this.isLoading = false
+        this.$dialog.alert({
+          message: 'Oops... não conseguimos confirmar a sua presença, tente novamente.',
+          type: 'is-danger'
+        })
+      }
     }
   }
 }
