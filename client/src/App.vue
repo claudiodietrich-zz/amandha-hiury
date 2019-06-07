@@ -6,6 +6,7 @@
     <our-story/>
     <godfathers-and-godmothers/>
     <ceremony-and-reception/>
+    <rsvp/>
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import BrideAndGroom from './components/BrideAndGroom.vue'
 import OurStory from './components/OurStory.vue'
 import GodfathersAndGodmothers from './components/GodfathersAndGodmothers.vue'
 import CeremonyAndReception from './components/CeremonyAndReception.vue'
+import Rsvp from './components/RSVP.vue'
 
 export default {
   name: 'app',
@@ -25,7 +27,8 @@ export default {
     BrideAndGroom,
     OurStory,
     GodfathersAndGodmothers,
-    CeremonyAndReception
+    CeremonyAndReception,
+    Rsvp
   }
 }
 </script>

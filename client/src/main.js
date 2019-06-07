@@ -1,7 +1,12 @@
 import Vue from 'vue'
 import App from './App.vue'
-import 'bulma/css/bulma.min.css'
+import Buefy from 'buefy'
+import Vuelidate from 'vuelidate'
 import 'bulma-timeline/dist/css/bulma-timeline.min.css'
+import 'buefy/dist/buefy.css'
+
+Vue.use(Buefy)
+Vue.use(Vuelidate)
 
 Vue.config.productionTip = false
 
