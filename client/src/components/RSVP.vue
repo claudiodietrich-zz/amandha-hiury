@@ -59,7 +59,8 @@
           </div>
 
           <div class="has-text-centered">
-            <b-button type="is-primary"
+            <b-button 
+              type="is-primary"
               v-on:click="submit">
               confirmar presença
             </b-button>

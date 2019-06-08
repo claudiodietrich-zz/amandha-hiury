@@ -40,16 +40,16 @@ export default {
       giftsLists: [
         [
           {
-            name: 'Só pra não dizer <br> que não dei nada',
-            value: '35',
-            class: '',
-            code: '5212982A4D4D8F1AA4CA3F93A04B8AE6'
-          },
-          {
             name: 'Ajuda na cervejinha <br> do noivo',
             value: '90',
             class: '',
             code: '9AB717F5323299C3341D9F9A1AD77688'
+          },
+          {
+            name: 'Só pra não dizer <br> que não dei nada',
+            value: '35',
+            class: 'is-active',
+            code: '5212982A4D4D8F1AA4CA3F93A04B8AE6'
           },
           {
             name: 'Sessão de terapia <br> de casal',
@@ -66,6 +66,12 @@ export default {
         ],
         [
           {
+            name: 'Tchauzinho <br> para o Papa <br> no Vaticano',
+            value: '350',
+            class: 'is-active',
+            code: '0E78F61DE5E59D5DD4925F95BFDDF206'
+          },
+          {
             name: 'Caneca <br> de choop <br> para o noivo',
             value: '80',
             class: '',
@@ -76,12 +82,6 @@ export default {
             value: '200',
             class: '',
             code: 'A01219580000CCEFF4A1FFBB80FC97C9'
-          },
-          {
-            name: 'Tchauzinho <br> para o Papa <br> no Vaticano',
-            value: '350',
-            class: '',
-            code: '0E78F61DE5E59D5DD4925F95BFDDF206'
           },
           {
             name: 'Noite romântica para o casal apaixonado',
@@ -98,16 +98,16 @@ export default {
             code: '1573D805DBDB0B2444E0DFAA400751A0'
           },
           {
-            name: 'Abafador <br> de ruídos para <br> momentos de discussão',
-            value: '100',
-            class: '',
-            code: '0BC9F313CDCD8D3FF4894FB2F402E615'
-          },
-          {
             name: 'Ajuda para <br> pagar a fatura <br> do cartão de crédito',
             value: '600',
             class: '',
             code: 'E10E36E76060E54774FCEF92A2371520'
+          },
+          {
+            name: 'Abafador <br> de ruídos para <br> momentos de discussão',
+            value: '100',
+            class: 'is-active',
+            code: '0BC9F313CDCD8D3FF4894FB2F402E615'
           },
           {
             name: 'Ajuda na passagem para os noivos visitarem o Brasil',
@@ -124,16 +124,16 @@ export default {
             code: 'C044E1B06F6FBC0CC4734FBA7BA11DD0'
           },
           {
-            name: 'Wi-fi <br> liberado no casório <br> para postar foto no Instagram',
+            name: 'Garrafa de vinho <br> para o casal',
+            value: '230',
+            class: 'is-active',
+            code: '22D001E60A0A27DEE4CFCFBEB40FBAAF'
+          },
+          {
+            name: 'Wi-fi liberado <br> no casório <br> para postar <br> foto no Instagram',
             value: '180',
             class: '',
             code: '290A0A5F090918E55401AF82733FEBB4'
-          },
-          {
-            name: 'Garrafa de vinho <br> para o casal',
-            value: '230',
-            class: '',
-            code: '22D001E60A0A27DEE4CFCFBEB40FBAAF'
           },
           {
             name: 'Um fim de semana em um spa para a noiva',
@@ -143,6 +143,12 @@ export default {
           }
         ],
         [
+          {
+            name: 'Camisa oficial do <br> Fluminense <br> para o noivo',
+            value: '250',
+            class: 'is-active',
+            code: '0F139B3A42424A8004545FA991E8F2F4'
+          },
           {
             name: 'Chinelos felpudos <br> que não <br> arranham o piso',
             value: '65',
@@ -156,12 +162,6 @@ export default {
             code: 'F69B26A53B3BA74114720FB467432655'
           },
           {
-            name: 'Camisa oficial do <br> Fluminense <br> para o noivo',
-            value: '250',
-            class: '',
-            code: '0F139B3A42424A8004545FA991E8F2F4'
-          },
-          {
             name: 'Ajuda na aposentadoria dos noivos',
             value: '1.500',
             class: '',
@@ -170,21 +170,21 @@ export default {
         ],
         [
           {
-            name: 'Cueca sexy para o noivo <br> usar na noite de núpcias',
+            name: 'Cueca sexy para <br> o noivo usar <br> na noite de núpcias',
             value: '60',
             class: '',
             code: '9E5AD8FBE7E7645BB45CAFA4657E935F'
           },
           {
-            name: 'Chocolates para <br> agradar a noiva',
+            name: 'Chocolates <br> para agradar <br> a noiva',
             value: '120',
             class: '',
             code: '8734ABF4C2C26AADD44C9FA729542874'
           },
           {
-            name: 'Ajuda para os noivos <br> comprarem euros para a viagem',
+            name: 'Ajuda para os noivos <br> comprarem euros <br> para a viagem',
             value: '500',
-            class: '',
+            class: 'is-active',
             code: '7BF7683A2D2D45CAA4A81F9122442691'
           },
           {
@@ -204,3 +204,24 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.button {
+  background-color: #f5e4c6;
+}
+.pricing-table .pricing-plan.is-active .plan-price .plan-price-amount {
+    color: #4a4a4a;
+}
+
+.pricing-table .pricing-plan.is-active .plan-footer .button {
+    background-color: #f5e4c6;
+    border-color: transparent;
+    color: #363636;
+}
+
+.pricing-table .pricing-plan.is-active .plan-footer .button:hover {
+    background-color: #f5e4c6;
+    border-color: transparent;
+    color: #363636;
+}
+</style>
