@@ -4,6 +4,7 @@ import Buefy from 'buefy'
 import Vuelidate from 'vuelidate'
 import axios from 'axios'
 import 'bulma-timeline/dist/css/bulma-timeline.min.css'
+import 'bulma-pricingtable/dist/css/bulma-pricingtable.min.css'
 import 'buefy/dist/buefy.css'
 
 Vue.use(Buefy)

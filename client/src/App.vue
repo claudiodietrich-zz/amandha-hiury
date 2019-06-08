@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <nav-bar/>
     <hero/>
     <intro/>
     <bride-and-groom/>
@@ -8,10 +9,12 @@
     <ceremony-and-reception/>
     <rsvp/>
     <posts/>
+    <gifts/>
   </div>
 </template>
 
 <script>
+import NavBar from './components/NavBar.vue'
 import Hero from './components/Hero.vue'
 import Intro from './components/Intro.vue'
 import BrideAndGroom from './components/BrideAndGroom.vue'
@@ -20,10 +23,12 @@ import GodfathersAndGodmothers from './components/GodfathersAndGodmothers.vue'
 import CeremonyAndReception from './components/CeremonyAndReception.vue'
 import Rsvp from './components/RSVP.vue'
 import Posts from './components/Posts.vue'
+import Gifts from './components/Gifts'
 
 export default {
   name: 'app',
   components: {
+    NavBar,
     Hero,
     Intro,
     BrideAndGroom,
@@ -31,7 +36,8 @@ export default {
     GodfathersAndGodmothers,
     CeremonyAndReception,
     Rsvp,
-    Posts
+    Posts,
+    Gifts
   }
 }
 </script>
