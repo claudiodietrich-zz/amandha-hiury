@@ -59,19 +59,15 @@ export default {
             photo: require('@/assets/godfathers-and-godmothers/godfathers/daniel-monteiro.jpg')
           },
           {
-            name: 'Felipe Cunha',
-            photo: require('@/assets/godfathers-and-godmothers/godfathers/felipe-cunha.jpg')
-          },
-          {
             name: 'Felipe Eduardo',
             photo: require('@/assets/godfathers-and-godmothers/godfathers/felipe-eduardo.jpg')
-          }
-        ],
-        godfathersSecondColumn: [
+          },
           {
             name: 'Isaías Erbe',
             photo: require('@/assets/godfathers-and-godmothers/godfathers/isaias-erbe.jpg')
-          },
+          }
+        ],
+        godfathersSecondColumn: [
           {
             name: 'Oswaldo Junior',
             photo: require('@/assets/godfathers-and-godmothers/godfathers/oswaldo-junior.jpg')
@@ -79,6 +75,10 @@ export default {
           {
             name: 'Pedro Santos',
             photo: require('@/assets/godfathers-and-godmothers/godfathers/pedro-santos.jpg')
+          },
+          {
+            name: 'Phelipe Santos',
+            photo: require('@/assets/godfathers-and-godmothers/godfathers/phelipe-santos.jpg')
           },
           {
             name: 'Vinícius Guerra',
