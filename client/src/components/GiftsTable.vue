@@ -56,7 +56,7 @@ export default {
         ],
         [
           {
-            name: 'A caneca <br> preferida <br> do noivo',
+            name: 'Caneca <br> de choop <br> para o noivo',
             value: '80',
             class: ''
           },
