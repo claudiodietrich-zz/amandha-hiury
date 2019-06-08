@@ -1,5 +1,5 @@
 <template>
-  <section class="hero has-text-centered parallax">
+  <section id="hero" class="hero has-text-centered parallax">
     <div class="parallax-curtain">
       <div class="hero-body">
         <div class="container">

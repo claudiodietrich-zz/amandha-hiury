@@ -1,5 +1,5 @@
 <template>
-  <section class="section">
+  <section id="presenteie-os-noivos" class="section">
     <div class="container">
       <div class="columns">
         <div class="column is-three-fifths is-offset-one-fifth">
@@ -8,7 +8,7 @@
           </figure>
 
           <h1 class="title has-text-centered is-size-1">
-            Presentei os Noivos
+            Presenteie os Noivos
           </h1>
 
           <gifts-table/>

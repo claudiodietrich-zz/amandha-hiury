@@ -1,5 +1,5 @@
 <template>
-  <section class="section has-text-centered">
+  <section id="os-noivos" class="section has-text-centered">
     <div class="container">
       <div class="columns">
         <div class="column is-three-fifths is-offset-one-fifth">

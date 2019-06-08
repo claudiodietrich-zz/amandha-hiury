@@ -1,5 +1,5 @@
 <template>
-  <section class="section">
+  <section id="aos-padrinhos-e-madrinhas" class="section">
     <div class="container">
       <div class="columns">
         <div class="column is-three-fifths is-offset-one-fifth">
