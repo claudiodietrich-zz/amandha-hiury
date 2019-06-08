@@ -10,8 +10,10 @@
   "dependencies": {
     "axios": "^0.19.0",
     "buefy": "^0.7.7",
+    "bulma-pricingtable": "^0.2.0",
     "bulma-timeline": "^3.0.3",
     "core-js": "^2.6.5",
+    "countdown": "^2.6.0",
     "shuffle-array": "^1.0.1",
     "vue": "^2.6.10",
     "vue-carousel": "^0.18.0",
