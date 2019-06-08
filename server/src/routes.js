@@ -1,5 +1,6 @@
 const router = require('express').Router()
 const nodemailer = require("nodemailer")
+const Message = require('./message')
 
 router.post('/rsvp', async (req, res, next) => {
   try {
@@ -33,6 +34,32 @@ router.post('/rsvp', async (req, res, next) => {
     })
 
     res.status(200).send()
+  } catch (error) {
+    next(error)
+  }
+})
+
+router.post('/messages', async (req, res, next) => {
+  try {
+    const { author, message } = req.body
+
+    if (!author || !message) {
+      throw new Error('parametros incorretos')
+    }
+
+    await Message.create({ author, message })
+
+    res.status(200).send()
+  } catch (error) {
+    next(error)
+  }
+})
+
+router.get('/messages', async (req, res, next) => {
+  try {
+    const messages = await Message.find({})
+
+    res.status(200).json(messages)
   } catch (error) {
     next(error)
   }

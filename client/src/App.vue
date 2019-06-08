@@ -7,6 +7,7 @@
     <godfathers-and-godmothers/>
     <ceremony-and-reception/>
     <rsvp/>
+    <posts/>
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import OurStory from './components/OurStory.vue'
 import GodfathersAndGodmothers from './components/GodfathersAndGodmothers.vue'
 import CeremonyAndReception from './components/CeremonyAndReception.vue'
 import Rsvp from './components/RSVP.vue'
+import Posts from './components/Posts.vue'
 
 export default {
   name: 'app',
@@ -28,7 +30,8 @@ export default {
     OurStory,
     GodfathersAndGodmothers,
     CeremonyAndReception,
-    Rsvp
+    Rsvp,
+    Posts
   }
 }
 </script>
