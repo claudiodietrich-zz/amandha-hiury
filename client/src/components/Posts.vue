@@ -9,7 +9,7 @@
             v-bind:can-cancel="false"/>
 
           <figure class="image is-96x96 has-image-centered">
-            <img src="../assets/intro/rings.svg">
+            <img src="../assets/posts/wedding-vows.svg">
           </figure>
 
           <h1 class="title has-text-centered is-size-1">

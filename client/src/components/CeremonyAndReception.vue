@@ -4,7 +4,7 @@
       <div class="columns">
         <div class="column is-three-fifths is-offset-one-fifth">
           <figure class="image is-96x96 has-image-centered">
-            <img src="../assets/ceremony-and-reception/just-married.svg">
+            <img src="../assets/ceremony-and-reception/weddinig_location.svg">
           </figure>
 
           <h1 class="title is-size-1 has-text-centered">

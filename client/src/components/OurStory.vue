@@ -56,7 +56,7 @@ export default {
           }
         },
         {
-          img: require('@/assets/our-story/wedding-vows.svg'),
+          img: require('@/assets/our-story/bridal_bouquet.svg'),
           title: 'O pedido de namoro...',
           body: 'Dali pra frente, foi pura sintonia, cumplicidade, paciência (mais dele do que dela) pra fazer dar certo, paciência (mais dela do que dele) pra fazer continuar dando certo e, cabe ressaltar, investimento (afinal a gente precisa conquistar os amigos também!! Haha). Ambos relatam que, desde sempre, parecia que se conheciam há anos. Dizendo em suas próprias palavras: parece que nunca não se conheceram! Um diz não se lembrar de como era antes de existir o outro em sua vida. E, foi por isso que, depois de 3 pedidos (na mesma noite), ela aceitou se render de vez aos encantos dele e começaram a namorar.',
           photo: require('@/assets/our-story/3.jpeg'),
