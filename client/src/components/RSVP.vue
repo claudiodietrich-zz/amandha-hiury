@@ -124,12 +124,18 @@ export default {
           this.$v.$reset()
 
           this.isLoading = false
-          this.$dialog.alert('Presença confirmada com sucesso!')
+
+          this.$toast.open({
+            message: 'Presença confirmada com sucesso!',
+            duration: 5000,
+            type: 'is-success'
+          })
         }
       } catch (e) {
         this.isLoading = false
-        this.$dialog.alert({
+        this.$toast.open({
           message: 'Oops... não conseguimos confirmar a sua presença, tente novamente.',
+          duration: 5000,
           type: 'is-danger'
         })
       }
