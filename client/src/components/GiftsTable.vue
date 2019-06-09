@@ -72,7 +72,7 @@ export default {
             code: '0E78F61DE5E59D5DD4925F95BFDDF206'
           },
           {
-            name: 'Caneca <br> de choop <br> para o noivo',
+            name: 'Caneca <br> de chopp <br> para o noivo',
             value: '80',
             class: '',
             code: '3F2492AC2D2DAAD33411CF87B46E9F2D'

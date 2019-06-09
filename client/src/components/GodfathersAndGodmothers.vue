@@ -11,7 +11,7 @@
             Aos Padrinhos e Madrinhas
           </h1>
           <p class="has-text-centered is-size-4">
-            "A escolha de cada um de vocês, para que testemunhassem esse momento tão especial em nossas vidas, foi feita com muito carinho . Todas as histórias, brincadeiras, conselhos, e a amizade de cada um, contribuíram de alguma forma para que perseverássemos no caminho do amor, da união e da cumplicidade. E é por esta razão que queremos que vocês dividam conosco a alegria deste dia, no altar, juntos de nós."
+            "A escolha de cada um de vocês, para que testemunhassem esse momento tão especial em nossas vidas, foi feita com muito carinho. Todas as histórias, brincadeiras, conselhos e a amizade de cada um contribuíram, de alguma forma, para que perseverássemos no caminho do amor, da união e da cumplicidade. E é por esta razão que queremos que vocês dividam conosco a alegria deste dia, no altar, juntos de nós."
           </p>
         </div>
       </div>
