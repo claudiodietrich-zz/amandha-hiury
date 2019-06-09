@@ -58,9 +58,9 @@ export default {
         {
           img: require('@/assets/ceremony-and-reception/drinking.svg'),
           name: 'Recepção',
-          text: 'Após a cerimônia, os noivos receberão os cumprimentos na Casa de festas Espaço Celebrare',
-          address: 'Rua Luiz Beltrão, 714 - Vila Valqueire, Rio de Janeiro - RJ',
-          addressLink: 'https://www.google.com/maps/place/Espaco+Celebrare/@-22.8890802,-43.3626744,15z/data=!4m5!3m4!1s0x0:0x693004d5a0647080!8m2!3d-22.8890802!4d-43.3626744'
+          text: 'Após a cerimônia, os noivos receberão os cumprimentos na Casa de festas Vila Regia',
+          address: 'Rua Caniú, 180 - Jacarepaguá, Rio de Janeiro - RJ',
+          addressLink: 'https://www.google.com.br/maps/place/Royal+Village+and+Vila+Nova+Parties/@-22.940058,-43.3620767,17z/data=!3m1!4b1!4m5!3m4!1s0x9bd852cb7afd63:0xe1ab806f2195066c!8m2!3d-22.940058!4d-43.359888'
         }
       ]
     }
