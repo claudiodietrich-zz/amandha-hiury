@@ -1,5 +1,5 @@
 <template>
-  <section id="como-tudo-aconteceu" class="section">
+  <section id="como-tudo-aconteceu" class="section is-hidden-mobile">
     <div class="container">
       <div class="columns">
         <div class="column is-three-fifths is-offset-one-fifth">

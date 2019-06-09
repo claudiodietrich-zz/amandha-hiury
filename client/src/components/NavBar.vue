@@ -16,23 +16,23 @@
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-end">
         <a href="#enfim-o-felizes-para-sempre" class="navbar-item" v-smooth-scroll="{ duration: 1000 }">
-          Enfim, o "felizes para sempre"!
+          Felizes para sempre
         </a>
 
         <a href="#os-noivos" class="navbar-item" v-smooth-scroll="{ duration: 1000 }">
           Os noivos
         </a>
 
-        <a href="#como-tudo-aconteceu" class="navbar-item" v-smooth-scroll="{ duration: 1000 }">
+        <a href="#como-tudo-aconteceu" class="navbar-item is-hidden-mobile" v-smooth-scroll="{ duration: 1000 }">
           Como tudo aconteceu
         </a>
 
         <a href="#aos-padrinhos-e-madrinhas" class="navbar-item" v-smooth-scroll="{ duration: 1000 }">
-          Aos Padrinhos e Madrinhas
+          Padrinhos e Madrinhas
         </a>
 
         <a href="#o-grande-dia" class="navbar-item" v-smooth-scroll="{ duration: 1000 }">
-          O grande dia!
+          O grande dia
         </a>
 
         <a href="#rsvp" class="navbar-item" v-smooth-scroll="{ duration: 1000 }">
@@ -75,8 +75,9 @@ document.addEventListener('DOMContentLoaded', () => {
 </script>
 
 <style scoped>
-.navbar-brand {
+.navbar-brand .navbar-item {
   font-family: 'Sacramento', cursive !important;
   font-weight: 400 !important;
+  font-size: 1.5rem;
 }
 </style>
